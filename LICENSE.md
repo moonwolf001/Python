@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) [year] [full name]
+Copyright (c) [2024] [MoonWolf]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 # MITライセンス
 
-著作権 (c) [年] [フルネーム]
+著作権 (c) [2024] [MoonWolf]
 
 以下に定める条件に従い、本ソフトウェアおよび関連する文書のファイル（以下、「ソフトウェア」）のコピーを入手するすべての人に対し、
 ソフトウェアを無制限に取り扱うことが無償で許可されます。これには、ソフトウェアの使用、コピー、変更、結合、掲載、配布、サブライセンス、および/または販売する権利、
