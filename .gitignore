@@ -1,0 +1,30 @@
+# バイトコードファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 仮想環境
+.venv/
+venv/
+ENV/
+
+# 開発ツール設定ファイル
+.idea/
+.vscode/
+*.swp
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ビルドディレクトリ
+build/
+dist/
+
+# egg情報
+*.egg-info/
+.eggs/
