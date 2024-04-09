@@ -7,10 +7,12 @@
 ### 1. MoonWolfと学ぶPythonシリーズ 第１巻 超入門編
 - 著者: MoonWolf, 2024
 - [Amazonで購入する](https://www.amazon.co.jp/dp/B0CW1GDTYY)
+- ブランチ　[book200](https://github.com/moonwolf001/Python/tree/book200)
 
 ### 2. MoonWolfと学ぶPythonシリーズ 第２巻 オブジェクト指向プログラミング 超入門編
 - 著者: MoonWolf, 2024
 - [Amazonで購入する](https://www.amazon.co.jp/dp/B0CYH1537B)
+- ブランチ　[Book201](https://github.com/moonwolf001/Python/tree/book201)
 
 ## プログラムソースコード
 このレポジトリ内の各ブランチは、上記の書籍で紹介されるプログラムソースコードに対応しています。ブランチごとに個別の`README.md`が設定されており、書籍の内容とコードについて説明がなされています。
