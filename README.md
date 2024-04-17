@@ -1,5 +1,4 @@
 # MoonWolfのPython書籍シリーズ
-![MoonWolf_Python](https://github.com/moonwolf001/Python/blob/_img/_img_a001.jpg)
 
 このレポジトリは、MoonWolfによるPython書籍シリーズのサポートを目的としています。ここでは、書籍に掲載されているプログラムのソースコードを紹介しています。
 
