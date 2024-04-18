@@ -1,0 +1,69 @@
+#(c)2024 MoonWolf / Pygame firework basic
+
+import pygame
+import random
+import math
+
+# Pygameの初期化
+pygame.init()
+
+# 画面の設定
+screen_width, screen_height = 800, 600
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Fireworks Simulation")
+
+# 色の設定
+black = (0, 0, 0)
+
+# 花火のクラス
+class Firework:
+    def __init__(self, x, y, color, count):
+        self.particles = []
+        self.exploded = False
+        angle_gap = 2 * math.pi / count
+        for i in range(count):
+            angle = angle_gap * i
+            speed = random.uniform(2, 6)
+            dx = math.cos(angle) * speed
+            dy = math.sin(angle) * speed
+            self.particles.append([x, y, dx, dy, color])
+
+    def update(self):
+        if not self.exploded:
+            for particle in self.particles:
+                particle[0] += particle[2] # X
+                particle[1] += particle[3] # Y
+                particle[3] += 0.04 # Gravity
+                particle[2] *= 0.97 # Air resistance
+                particle[3] *= 0.97 # Air resistance
+
+    def draw(self, screen):
+        for particle in self.particles:
+            pygame.draw.circle(screen, particle[4], (int(particle[0]), int(particle[1])), 3)
+
+# 花火の生成と管理
+fireworks = []
+timer = 0
+stages = [(20, 70), (100, 150), (120, 250)] # 各段階での花火の粒子数
+
+running = True
+while running:
+    screen.fill(black)
+
+    if timer % 150 == 0: # 各段階での花火を追加
+        stage = min(timer // 200, len(stages) - 1)
+        count = random.randint(stages[stage][0], stages[stage][1])
+        fireworks.append(Firework(random.randint(100, 700), random.randint(50, 300), (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), count))
+
+    for firework in fireworks:
+        firework.update()
+        firework.draw(screen)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    pygame.display.flip()
+    timer += 1
+
+pygame.quit()
