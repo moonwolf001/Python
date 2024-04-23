@@ -14,6 +14,11 @@
 - [Amazonで購入する](https://www.amazon.co.jp/dp/B0CYH1537B)
 - ブランチ　[Book201](https://github.com/moonwolf001/Python/tree/book201)
 
+### 2. MoonWolfと学ぶPythonシリーズ 第３巻 PythonとArt 花火大会編
+- 執筆中 (Pythonでの色の一覧、pygameを使った花火大会 )
+- ブランチ　[Book202](https://github.com/moonwolf001/Python/tree/book202)
+
+
 ## プログラムソースコード
 このレポジトリ内の各ブランチは、上記の書籍で紹介されるプログラムソースコードに対応しています。ブランチごとに個別の`README.md`が設定されており、書籍の内容とコードについて説明がなされています。
 
