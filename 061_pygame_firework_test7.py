@@ -10,7 +10,7 @@ import time
 
 # 画面設定
 WIDTH, HEIGHT = 800, 600
-SCREEN_TITLE = "Fireworks Show"
+SCREEN_TITLE = "Fireworks Show by MoonWolf, 2024"
 
 # 乱数のシードを現在の時刻（ミリ秒）に設定
 random.seed(time.time())
