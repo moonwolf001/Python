@@ -1,4 +1,4 @@
-# (c)2024 MoonWolf（むーんうるふ） // Python pygameにて花火大会 完成度95%
+# (c)2024 MoonWolf（むーんうるふ） // Python pygameにて花火大会 Part1
 # pip により、外部ライブラリー　pygame　の取り込みが必要
 
 import pygame
