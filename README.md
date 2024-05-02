@@ -14,8 +14,9 @@
 - [Amazonで購入する](https://www.amazon.co.jp/dp/B0CYH1537B)
 - ブランチ　[Book201](https://github.com/moonwolf001/Python/tree/book201)
 
-### 2. MoonWolfと学ぶPythonシリーズ 第３巻 PythonとArt 花火大会編
-- 執筆中 (Pythonでの色の一覧、pygameを使った花火大会 )
+### 3. MoonWolfと学ぶPythonシリーズ 第３巻 花火大会編 -- PythonとArtの接点を求める --
+- 著者: MoonWolf, 2024
+- [Amazonで購入する](https://www.amazon.co.jp/dp/B0D31Q66HH)
 - ブランチ　[Book202](https://github.com/moonwolf001/Python/tree/book202)
 
 
