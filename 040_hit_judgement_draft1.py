@@ -47,7 +47,7 @@ PYRAMID_COUNT = 10
 CUBOID_COUNT = 10
 
 # 衝突判定の調整定数
-PYRAMID_COLLISION_FACTOR = 0.8
+PYRAMID_COLLISION_FACTOR = 0.9
 CUBOID_COLLISION_FACTOR = 1.2
 
 def rotate(points, angle_x, angle_y, angle_z):
