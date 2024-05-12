@@ -19,6 +19,11 @@
 - [Amazonで購入する](https://www.amazon.co.jp/dp/B0D31Q66HH)
 - ブランチ　[Book202](https://github.com/moonwolf001/Python/tree/book202)
 
+### 4. MoonWolfと学ぶPythonシリーズ 第４巻 レトロゲーム編 -- pygameで横スクロールゲームを作成してみた --
+- 著者: MoonWolf, 2024
+- [Amazonで購入する](https://www.amazon.co.jp/dp/B0D3YRKYXK)
+- ブランチ　[Book203](https://github.com/moonwolf001/Python/tree/book203)
+
 
 ## プログラムソースコード
 このレポジトリ内の各ブランチは、上記の書籍で紹介されるプログラムソースコードに対応しています。ブランチごとに個別の`README.md`が設定されており、書籍の内容とコードについて説明がなされています。
