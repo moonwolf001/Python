@@ -7,7 +7,7 @@
 # 上記書籍によりプログラムの詳細を説明
 # MoonWolf著作：https://www.amazon.co.jp/stores/MoonWolf/author/B0CD3151FX
 # このコメントを残す限り、本プログラムを自由に使うことを許可します
-# ご意見等、ツイッター（X）でのDM歓迎。https://twitter.com/MoonWolf_001
+# ご意見等、ツイッター（X）でのDM歓迎。https://twitter.com/MoonWolf_Eng
 ##########################################################################
 
 import pygame
